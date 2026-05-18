@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html>
-	<link rel="stylesheet" type="text/css" href="style.css">
+<html lang="fr">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Défi ou réponse</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Défi ou réponse</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<header>
-		<h1>
-			DÉFI OU RÉPONSE
-		</h1>
-	</header> 
+    <header>
+        <h1>DÉFI OU RÉPONSE</h1>
+    </header>
+
+    <div class="container">
+        <img id="carteGage" src="gages/0.png" alt="Carte gage">
+
+        <button id="tirerBtn">
+            Tirer un gage
+        </button>
+
+        <audio id="sonTirage" src="son/tirage.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
