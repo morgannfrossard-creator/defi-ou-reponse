@@ -5,7 +5,7 @@ const sonTirage = document.getElementById("sonTirage");
 const cartes = [];
 
 for (let i = 1; i <= 50; i++) {
-    cartes.push("gages/" + i + ".png");
+    cartes.push("gages/" + i + ".jpg");
 }
 
 tirerBtn.addEventListener("click", function () {
