@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     text-align: center;
+    background: radial-gradient(circle, #000000, #820000);
 }
 
 header {
